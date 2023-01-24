@@ -15,6 +15,11 @@ const questions = [
     type: 'input',
     message: 'Enter description'
   },
+  {
+    name: "contents",
+    type: 'input',
+    message: 'Enter Table of Contents'
+  },
 ];
 
 // function to write README file

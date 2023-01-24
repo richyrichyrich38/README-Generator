@@ -5,6 +5,10 @@ function generateMarkdown(data) {
 ## Description
 
 ${data.description}
+
+## Table of Contents 
+
+${data.contents}
 `;
 }
 

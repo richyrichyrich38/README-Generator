@@ -9,6 +9,10 @@ ${data.description}
 ## Table of Contents 
 
 ${data.contents}
+
+## Installation 
+
+${data.installation}
 `;
 }
 

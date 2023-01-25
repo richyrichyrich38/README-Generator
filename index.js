@@ -20,6 +20,11 @@ const questions = [
     type: 'input',
     message: 'Enter Table of Contents'
   },
+  {
+    name: "installation",
+    type: 'input',
+    message: 'Enter your Installation details'
+  },
 ];
 
 // function to write README file

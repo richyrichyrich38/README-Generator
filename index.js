@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const chooseLicenseURL = 'https://choosealicense.com/';
 
 // array of questions for user
 const questions = [
@@ -29,6 +30,21 @@ const questions = [
     name: "usage",
     type: 'input',
     message: 'Enter your usage details'
+  },
+  {
+    name: "contributing",
+    type: 'input',
+    message: 'Enter your contribution details'
+  },
+  {
+    name: "tests",
+    type: 'input',
+    message: 'Enter your test details'
+  },
+  {
+    name: "license",
+    type: 'input',
+    message: 'Choose your license'
   },
 ];
 

@@ -4,7 +4,7 @@
 
 test
 
-## Table of Contents 
+## TBC - Table of Contents
 
 test
 
@@ -13,5 +13,17 @@ test
 test
 
 ## Usage 
+
+test
+
+## Contributing 
+
+test
+
+## Tests 
+
+test
+
+## License 
 
 test

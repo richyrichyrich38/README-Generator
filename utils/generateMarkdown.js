@@ -6,7 +6,7 @@ function generateMarkdown(data) {
 
 ${data.description}
 
-## Table of Contents 
+## TBC - Table of Contents
 
 ${data.contents}
 
@@ -17,6 +17,18 @@ ${data.installation}
 ## Usage 
 
 ${data.usage}
+
+## Contributing 
+
+${data.contributing}
+
+## Tests 
+
+${data.tests}
+
+## License 
+
+${data.license}
 `;
 }
 

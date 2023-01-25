@@ -55,6 +55,8 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() { 
+  console.log('\nWelcome to the README generator\n-------------------------------');
+
   inquirer.prompt(questions)
     .then((answers) => {
       const markdown = generateMarkdown(answers);

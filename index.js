@@ -23,7 +23,12 @@ const questions = [
   {
     name: "installation",
     type: 'input',
-    message: 'Enter your Installation details'
+    message: 'Enter your installation details'
+  },
+  {
+    name: "usage",
+    type: 'input',
+    message: 'Enter your usage details'
   },
 ];
 

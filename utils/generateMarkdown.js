@@ -26,9 +26,15 @@ ${data.contributing}
 
 ${data.tests}
 
+## GitHub
+
+${data.github}
+
 ## License 
 
 ${data.license}
+
+
 `;
 }
 

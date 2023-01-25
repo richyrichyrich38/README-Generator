@@ -43,8 +43,34 @@ const questions = [
   },
   {
     name: "license",
-    type: 'input',
-    message: 'Choose your license'
+    type: 'list',
+    message: 'Choose your license',
+    choices: [
+      {
+        name: 'Academic Free License v3.0',
+        licenseKeyword: 'afl-3.0'
+      },
+      {
+        name: 'Artistic license 2.0',
+        licenseKeyword: 'artistic-2.0'
+      },
+      {
+        name: 'Boost Software License 1.0',
+        licenseKeyword: 'bsl-1.0'
+      },
+      {
+        name: 'European Union Public License 1.1',
+        licenseKeyword: 'eupl-1.1'
+      },
+      {
+        name: 'MIT',
+        licenseKeyword: 'mit'
+      },
+      {
+        name: 'The Unlicense',
+        licenseKeyword: 'unlicense'
+      },
+    ]
   },
 ];
 

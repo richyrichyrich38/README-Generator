@@ -24,10 +24,12 @@ A key component of your profile, and one that many new developers overlook, is t
 
 
 
-## License 
-
-MIT
-
 ## GitHub
 
 https://github.com/richyrichyrich38/README-Generator
+
+## License 
+
+Academic Free License v3.0
+
+

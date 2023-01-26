@@ -49,7 +49,11 @@ const questions = [
     message: 'Enter your github repo',
     default: 'https://github.com/richyrichyrich38/README-Generator'
   },
-  
+  {
+    name: "questions",
+    type: 'input',
+    message: 'Enter your questions here'
+  },
   {
     name: "license",
     type: 'list',

@@ -30,6 +30,10 @@ ${data.tests}
 
 ${data.github}
 
+## Questions
+
+${data.questions}
+
 ## License 
 
 ${data.license}

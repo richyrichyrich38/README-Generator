@@ -38,18 +38,20 @@ const questions = [
   {
     name: "contributing",
     type: 'input',
-    message: 'Enter your contribution details'
+    message: 'Enter your contribution details',
+    default: "If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer."
   },
   {
     name: "tests",
     type: 'input',
-    message: 'Enter your test details'
+    message: 'Enter your test details',
+    default: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.'
   },
   {
     name: "github",
     type: 'input',
-    message: 'Enter your github repo',
-    default: 'https://github.com/richyrichyrich38/README-Generator'
+    message: 'Enter your github username',
+    default: 'richyrichyrich38'
   },
   {
     name: "questions",

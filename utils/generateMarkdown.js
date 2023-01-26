@@ -1,4 +1,5 @@
 const { default: Choices } = require("inquirer/lib/objects/choices");
+const gitHubURL = 'https://github.com/';
 
 // function to generate markdown for README
 function generateMarkdown(data) {
@@ -37,13 +38,9 @@ ${data.contributing}
 
 ${data.tests}
 
-## GitHub
-
-${data.github}
-
 ## Questions
 
-If you have questions, please email me on ${data.questions}
+If you have questions, please contact me on ${data.questions} or via my GitHub [${data.github}](gitHubURL+${data.github})
 
 ## License 
 

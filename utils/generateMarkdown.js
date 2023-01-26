@@ -1,3 +1,5 @@
+const { default: Choices } = require("inquirer/lib/objects/choices");
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}

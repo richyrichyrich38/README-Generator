@@ -1,6 +1,6 @@
 # README Generator
 
-[![License](https://img.shields.io/badge/License-Academic Free License v3.0-blue.svg)]
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)]
 
 ## Table of Contents
 
@@ -43,6 +43,6 @@ If you have questions, please email me on test@test.com
 
 ## License 
 
-Academic Free License v3.0
+MIT
 
 

@@ -2,13 +2,20 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
+## Table of Contents
+
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [GitHub](#github)
+  - [Questions](#questions)
+  - [License](#license)
+
 ## Description
 
 ${data.description}
-
-## TBC - Table of Contents
-
-${data.contents}
 
 ## Installation 
 

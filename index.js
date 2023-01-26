@@ -21,17 +21,19 @@ const questions = [
     name: "description",
     type: 'input',
     message: 'Enter description',
-    default: "A key component of your profile, and one that many new developers overlook, is the README file that's associated with each respository. A README file acts like a virtual storefront to a repository—it's the first thing that a person sees when they visit a repo on GitHub. But it's also much more than that: README files contain essential information about the repo's project. Thus, the quality of a README file can differentiate a high-quality repo from a low-quality one."
+    default: "A key component of your profile, and one that many new developers overlook, is the README file that's associated with each repository. A README file acts like a virtual storefront to a repository—it's the first thing that a person sees when they visit a repo on GitHub. But it's also much more than that: README files contain essential information about the repo's project. Thus, the quality of a README file can differentiate a high-quality repo from a low-quality one."
   },
   {
     name: "installation",
     type: 'input',
-    message: 'Enter your installation details'
+    message: 'Enter your installation details',
+    default: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.'
   },
   {
     name: "usage",
     type: 'input',
-    message: 'Enter your usage details'
+    message: 'Enter your usage details',
+    default: 'Provide instructions and examples for use. Include screenshots as needed.'
   },
   {
     name: "contributing",
@@ -51,8 +53,9 @@ const questions = [
   },
   {
     name: "questions",
-    type: 'input',
-    message: 'Enter your questions here'
+    type: 'email',
+    message: 'Please input your email incase a user has questions',
+    default: 'test@test.com'
   },
   {
     name: "license",
@@ -99,7 +102,8 @@ function init() {
   inquirer.prompt(questions)
     .then((answers) => {
       const markdown = generateMarkdown(answers);
-      writeToFile('demoReadme.md', markdown)
+      writeToFile('demoReadme.md', markdown);
+      console.log('You README file is now ready!');
     })
   
 }
